@@ -1,0 +1,17 @@
+.itemWithbackground {
+    background-image: url("/folder/img1.png");
+    background-size: 100% !important;
+    animation: changeBg 20s infinite;
+}
+@-webkit-keyframes changeBg {
+    0%,100%  {background-image: url("/folder/img1.png");}
+    25% {background-image: url("/folder/img2.png");}
+    50% {background-image: url("/folder/img3.png");}
+    75% {background-image: url("/folder/img4.png");}
+}
+@keyframes changeBg{
+    0%,100%  {background-image: url("/folder/img1.png");}
+    25% {background-image: url("/folder/img2.png");}
+    50% {background-image: url("/folder/img3.png");}
+    75% {background-image: url("/folder/img4.png");}
+}
